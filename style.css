@@ -30,7 +30,7 @@ main {
   max-width: 500px;
   padding: 0 15px;
 
-  border: 1px solid red; 
+  /* border: 1px solid red;  */
 }
 
 
@@ -40,7 +40,7 @@ header {
   flex-direction: column;
   align-items: center;
 
-  border: 1px solid cyan; 
+  /* border: 1px solid cyan;  */
 }
 
 h1 {
@@ -79,26 +79,8 @@ section{
   align-items: center;
 
 
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
-
-/* .link{
-  background: var(--red);
-  text-decoration: none;
-  color: var(--white);
-  margin-top: 30px;
-  height: 50px;
-
-  width: 100%;
-  max-width: 270px;
-  border-radius: 5px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- */
-
 
 .link {
   max-width: 270px;
@@ -119,7 +101,7 @@ section{
 
   text-align: center;
 }
-/* 
+
 .aula-linkdev {
   background-color: var(--blue);
   height: 100px;
@@ -127,8 +109,8 @@ section{
   animation-name: pulse;
   animation-iteration-count: infinite;
   animation-duration: 1.75s;
-} */
-/* 
+} 
+ 
 @keyframes pulse {
   50% {
     filter: brightness(1.2);
@@ -139,7 +121,7 @@ section{
     filter: brightness(1);
     transform: translateY(0px);
   }
-} */
+} 
 
 .link:first-child {
   margin-top: 0;
@@ -164,7 +146,7 @@ footer {
   align-items: center;
   margin-top: 30px;
 
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 footer i {
